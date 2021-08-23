@@ -1,0 +1,101 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: rgb(164, 212, 240);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #075bf7;
+  padding: 50px;
+  text-align: center;
+  font-size: 55px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  padding: 25px;
+  height: 320px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+   -webkit-flex: 2;
+   -ms-flex: 2;
+   flex: 2;
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #075bf7;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 650px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+
+* { 
+  text-align: center; 
+  color: rgb(247, 247, 247);
+  text-shadow: 2px 2px rgb(247, 247, 247);
+}
+
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(247, 247, 247);
+  background-color: rgb(7, 132, 250);
+  text-align: center;
+
+}
+
+div{
+  width: 1|50px;
+  border : 20px solid green;
+  padding: 50px;
+  margin:20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(23, 243, 41);
+  background-color: black;
+  text-align: center;
+
+}
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: rgb(247, 247, 247);
+  font-size: 30px;
+
+}
+
+  <div class="column side" style="background-color:#aaa width:200px;height:400px";column>
+  
